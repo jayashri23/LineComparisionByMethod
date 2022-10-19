@@ -18,10 +18,10 @@ public class LengthOfLine {
         System.out.println("y1= ");
         y1 = sc.nextInt();
         length = Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
-        System.out.println("Length of Line ="  +length);
+        System.out.println("Length of Line =" +length);
     }
     public static void main(String [] args){
-        System.out.println("Enter values for length calculation:" );
+        System.out.println("Enter values for length calculation:");
         length();
     }
 }
